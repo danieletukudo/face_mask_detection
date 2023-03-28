@@ -1,0 +1,21 @@
+<html>
+   <body>
+   <h3>  Click the botton bellow to choose your image for training  </h3>
+      <form action = "/add" method = "POST"
+         enctype = "multipart/form-data">
+          <input type="text" name="first_name" placeholder="first name">
+           <input type="text" name="sur_name" placeholder="last name">
+         <input type = "file" name = "file" />
+         <input type = "submit"/>
+      </form>
+
+    <h3> Click the botton bellow to choose your image for recognition  </h3>
+
+    <form action = "/search" method = "POST"
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file" />
+         <input type = "submit"/>
+      </form>
+
+   </body>
+</html>
